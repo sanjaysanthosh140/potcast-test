@@ -1,0 +1,36 @@
+.grid{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    border: solid black 2px;
+    top: 20%;
+    left: 30%;
+    display: flex;
+    text-align: center;
+}
+
+.UserCls{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blueviolet;
+}
+
+.ballCls{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.brikClis{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    z-index: 0;
+
+}
+
